@@ -6,10 +6,14 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Gato nome="ellen"/>
-      <Gato nome="gi"/>
-      <Gato nome="leticia"/>
-      <StatusBar style="auto" />
+      <Gato nome="ellen"  
+            idade={2}/>
+      <Gato nome="gi" 
+            idade={4}/>
+      <Gato nome="leticia" 
+            idade={8}/>
+      <StatusBar style="auto" 
+            idade={6}/>
     </View>
   );
 }
