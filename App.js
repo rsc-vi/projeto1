@@ -7,7 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <Gato/>
-      
+      <Gato/>
+      <Gato/>
       <StatusBar style="auto" />
     </View>
   );
