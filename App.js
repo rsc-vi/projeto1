@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Gato from './gatos';
-
+import Cliques from './cliques';
 export default function App() {
   return (
     <View style={styles.container}>
+      <Cliques/>
       <Text>Open up App.js to start working on your app!</Text>
       <Gato nome="ellen"  
             idade={2}/>
